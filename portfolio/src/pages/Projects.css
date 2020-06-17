@@ -1,0 +1,67 @@
+.project-filter {
+    display: flex;
+}
+
+.project-filter div {
+    display: flex;
+    justify-content: center; /* aligns vertically */
+    align-items: center; /* aligns horizontally */    padding: 5px;
+    min-width: 100px; 
+    margin: 0 10px 25px 10px;
+    transition: .5s ease-in-out;
+}
+
+.project-filter div:hover {
+    background: turquoise;
+    transition: .5s ease-in-out;
+}
+
+#projects { /* imcludes filter buttons and projects */
+    padding: 25px 0 25px 0;
+}
+
+.projects { /* includes just project tiles */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1500px;
+    height: 100%;
+    border: none;
+    text-align: start;
+    overflow-y: auto;
+}
+
+.projects a {
+    display: flex;
+    margin-bottom: 10px;
+    border-right: 5px solid turquoise;
+    background: turquoise;
+}
+
+.project-tile {
+    display: flex;
+    flex-direction: row;
+    background: rgb(193, 193, 193);
+    color: rgb(0, 0, 0);
+    transition: .5s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+div.project-tile:hover {
+    opacity: 75%;
+    transition: .25s ease-in-out;
+}
+
+.project-tile h3, p {
+    padding: 10px;
+}
+
+.project-tile h3 {
+    display: flex;
+    min-width: 125px;
+    border-right: 0.5px solid rgb(132, 132, 132);
+    justify-content: center; /* aligns vertically */
+    align-items: center; /* aligns horizontally */
+}
+

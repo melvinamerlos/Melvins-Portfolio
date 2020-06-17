@@ -1,0 +1,77 @@
+#about {
+    display: flex;
+    background: none;
+    height: 80%;
+}
+
+#about .goal-pannel { 
+    display: flex;
+    justify-content: center; /* aligns vertically */
+    align-items: center; /* aligns horizontally */
+    border: 1px solid blue;
+    width: 100%;
+    height: 20%;
+}
+
+#about .goal-pannel ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* aligns vertically */
+    align-items: center; /* aligns horizontally */
+    width: 100%;
+    height: 100%;
+    background: red;
+    overflow-y: auto;
+}
+
+/* ---- slides ---- */
+
+#about .goal-pannel ul li {
+    display: flex;
+    justify-content: center; /* aligns vertically */
+    align-items: center; /* aligns horizontally */
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.slider input {
+    display: none;
+}
+
+#about .bio-stats { 
+    display: flex;
+    justify-content: center; /* aligns vertically */
+    align-items: center; /* aligns horizontally */
+    border: 5px solid green;
+    width: 100%;
+    height: 80%;
+}
+
+#about .bio { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* aligns vertically */
+    align-items: center; /* aligns horizontally */
+    border: 5px solid purple;
+    width: 50%;
+    height: 100%;
+}
+
+#about .graph-stats { 
+    display: flex;
+    text-align: left;
+    justify-content: center; /* aligns vertically */
+    align-items: center; /* aligns horizontally */
+    border: 1px solid red;
+    width: 50%;
+    height: 100%;
+}
+
+/* #about p {
+    display: flex;
+    align-items: center; /* aligns horizontally */ /*
+    border: 1px solid red; 
+    text-align: left;
+    width: 80%;
+} */

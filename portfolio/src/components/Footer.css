@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center; /* aligns vertically */
+    border-top: 1.5px solid turquoise;
+    background: black;
+    width: 100%;
+    bottom: 0px;
+}
+
+.license {
+    display: flex;
+    color: rgb(164, 164, 164);
+    width: 33.33333%;
+    min-width: 300px;
+    padding-left: 10px;
+}
+
+.footer-social-icons {
+    display: flex;
+    align-items: center; /* aligns vertically */
+    width: 66.66666%;
+    margin: 0;
+}
+  
+.social-icons {
+    display: flex;
+    justify-content: center; /* aligns hoprizontally */
+    width: 50%;
+}

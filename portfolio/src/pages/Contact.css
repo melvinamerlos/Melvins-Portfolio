@@ -1,0 +1,28 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: center; /* aligns vertically */
+    align-items: center; /* aligns horizontally */
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+
+.contact-form input {
+    display: flex;
+    height: 25px;
+    margin: 5px;
+    width: 500px;
+}
+
+.body-message {
+    display: flex;
+    min-height: 100px;
+    margin-top: 10px;
+    align-items: flex-start;
+}
+
+.contact-button {
+    margin-top: 10px;
+}
